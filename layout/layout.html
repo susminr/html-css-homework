@@ -1,86 +1,79 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-   
-    <style>
-        
-    .flex-container {
-        width:600px;
-        margin:100px ;
-        background-color: rgb(79, 207, 175);
-        padding:1px;
-    }
-        .row {
-    display: flex;
-  flex-direction: row;
-  background-color: rgb(193, 208, 218);
-  margin:auto;
-  width:400px;
-}
-  .row> div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 0px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-.box1 {
-    background-color: rgb(86, 121, 145);
-}
+    <style >
+        #container {width:400px; margin:30px auto}
+#box-1 {float: left; width: 40px; height: 50px; }
+#box-2 {float: left; width: 30px; height: 50px;  ;}
+#box-3 {float: left; width: 170px; height: 50px; }
+#box-4 {float: left; width: 160px; height: 50px;}
+
+#box-5 {float: left; width: 240px; height: 60px; }
+#box-6 {float: left; width: 160px; height: 60px;  }
+
+#box-7 {float: left; width: 80px; height: 180px;  }
+#box-8 {float: left; width: 160px; height: 180px; }
+#box-9 {float: left; width: 160px; height: 180px; }
+
+#box-10 {float: left; width: 240px; height: 40px;  }
+#box-11 {float: left; width: 160px; height: 40px;  }
+#box-12 {float: left; width: 240px; height: 40px;  }
+#box-13 {float: left; width: 160px; height: 40px;  }
+#box-41 {float: left; width: 160px; height: 50px;  }
 
 
+#boxg-1 {float: left; width: 40px; height: 50px; }
+#boxg-2 {float: left; width: 20px; height: 50px;  }
+#boxg-3 {float: left; width: 180px; height: 50px; }
+#boxg-4 {float: left; width: 160px; height: 25px; }
+#boxg-5 {float: left; width: 160px; height: 25px; }
+
+
+.box-lightblue {background-color: rgb(208, 230, 238);}
+.box-lightpink {background-color: rgb(243, 193, 135);}
+.box-lightorange {background-color: rgb(233, 135, 23);}
+.box-white {background-color: white;}
+.box-pink {background-color: lightpink;}
+.box-lightgreen {background-color: lightgreen; }
+.box-green {background-color:green;}
+.box-gray {background-color:gray;}
     </style>
 </head>
-<body >
-    <div class="flex-container">
-    <div class="row">
-        <div class="box1">One</div>
-        <div class="box2">Two</div>
-        <div class="box3">Three</div>
-        <div class="box4">Four</div>
-    </div>
-    <div class="row">
-        <div class="box5">One</div>
-        <div class="box6">Two</div>
-       
-    </div>
-    <div class="row">
-        <div class="box7">One</div>
-        <div class="box8">Two</div>
-        <div class="box9">Three</div>
-        
-    </div>
-    <div class="row">
-        <div class="box10">One</div>
-        <div class="box11">Two</div>
-        
-    </div>
-    <div class="row">
-        <div class="box12">One</div>
-        <div class="box13">Two</div>
-        <div class="box14">Three</div>
-        <div class="box15">Three</div>
-    </div>
-    <div class="row">
-        <div class="box16">One</div>
-        <div class="box17">Two</div>
-       
-    </div>
-    <div class="row">
-        <div class="box18">One</div>
-        <div class="box19">Two</div>
-        <div class="box20">Three</div>
-        <div class="box21">Three</div>
-    </div>
-    <div class="row">
-        <div class="box21">One</div>
-        <div class="box22">Two</div>
-        
-    </div>
-    </div>
-    
-</body>
+<body style="background-color:lightgray;">
+     
+    <div id="container">
+        <div id="box-1" class="box-lightblue"></div>
+        <div id="box-2" class="box-lightpink"></div>
+        <div id="box-3" class="box-lightorange"></div>
+        <div id="box-4" class="box-pink"></div>
 
+        <div id="box-5" class="box-lightblue"></div>
+        <div id="box-6" class="box-pink"></div>
+
+        <div id="box-7" class="box-lightblue"></div>
+        <div id="box-8" class="box-gray"></div>
+        <div id="box-9" class="box-pink"></div>
+
+        <div id="box-10" class="box-lightblue"></div>
+        <div id="box-11" class="box-pink"></div>
+       
+        <div id="boxg-1" class="box-lightblue"></div>
+        <div id="boxg-2" class="box-lightgreen"></div>
+        <div id="boxg-3" class="box-green"></div>
+        <div id="boxg-4" class="box-pink"></div>
+        <div id="boxg-5" class="box-white"></div>
+
+        <div id="box-10" class="box-lightblue"></div>
+        <div id="box-11" class="box-white"></div>
+
+        <div id="box-1" class="box-lightblue"></div>
+        <div id="box-2" class="box-lightpink"></div>
+        <div id="box-3" class="box-lightorange"></div>
+        <div id="box-41" class="box-white"></div>
+
+        <div id="box-10" class="box-lightblue"></div>
+        <div id="box-11" class="box-white"></div>
+      </div>
+</body>
 </html>
+
