@@ -1,1 +1,115 @@
 
+ #container {
+    width: 400px;
+    margin: 50px auto
+}
+
+#box-160-25 {
+    float: left;
+    width: 160px;
+    height: 25px;
+}
+
+#box-160-40 {
+    float: left;
+    width: 160px;
+    height: 40px;
+}
+
+#box-240-40 {
+    float: left;
+    width: 240px;
+    height: 40px;
+}
+
+#box-20-50 {
+    float: left;
+    width: 20px;
+    height: 50px;
+}
+
+#box-30-50 {
+    float: left;
+    width: 30px;
+    height: 50px;
+}
+
+#box-40-50 {
+    float: left;
+    width: 40px;
+    height: 50px;
+}
+
+#box-160-50 {
+    float: left;
+    width: 160px;
+    height: 50px;
+}
+
+#box-170-50 {
+    float: left;
+    width: 170px;
+    height: 50px;
+}
+
+#box-160-60 {
+    float: left;
+    width: 160px;
+    height: 60px;
+}
+
+#box-240-60 {
+    float: left;
+    width: 240px;
+    height: 60px;
+}
+
+#box-80-180 {
+    float: left;
+    width: 80px;
+    height: 180px;
+}
+
+#box-160-180 {
+    float: left;
+    width: 160px;
+    height: 180px;
+}
+
+#box-180-50 {
+    float: left;
+    width: 180px;
+    height: 50px;
+}
+
+.box-lightblue {
+    background-color: rgb(208, 230, 238);
+}
+
+.box-lightpink {
+    background-color: rgb(243, 193, 135);
+}
+
+.box-lightorange {
+    background-color: rgb(233, 135, 23);
+}
+
+.box-white {
+    background-color: white;
+}
+
+.box-pink {
+    background-color: lightpink;
+}
+
+.box-lightgreen {
+    background-color: lightgreen;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-gray {
+    background-color: gray;
+}
